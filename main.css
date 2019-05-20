@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    background-color: #9b9b8c;
+    padding:20px;
+    width: 100%;
+    height: 25px;
+    border-bottom: 2px solid black;
+    color:white;
+}
+
+.header2 {
+    background-color: #9b9b8c;
+    padding: 20px;
+    width: 100%;
+    height: 70px;
+    border-bottom: 2px solid black;
+    color: white;
+}
+
+
+.footer{
+     background-color: #686859;
+     padding:20px;
+     width: 100%;
+     height: 25px;
+     color:white;
+     position: fixed;
+     bottom: 0;
+}
+.bin {
+    text-align: center;
+    font-size: 1.7em;
+    margin: auto;
+    margin-top: 40%;
+
+}
+
+.button{
+   background-color: #353526;
+   color: white;
+   padding:10px;
+   width:200px;
+   border-radius: 10px;
+   text-align: center;
+   margin:auto;
+}
+.buttons{
+    text-align:center;
+    margin:10px;
+}
+
+
+
+a{
+   text-decoration:none;
+}
+
+.left {
+    height: inherit;
+    width: 50vw;
+    display: inline-block;
+    background-color: inherit;
+}
+
+.tracks{
+      height: inherit;
+      width: 50vw;
+      background-image: url("../resources/fadedTrack.jpg");
+      background-size: cover;
+      /* opacity: 0.19; */
+      float: right;
+      display: flex;
+      justify-content: center;
+}
+
+
+.tracks div{
+    margin:10px;
+
+}
+
+
+.content {
+    position: relative;
+    height: 90vh;
+    width: 100vw;
+    background-color: #EEEEEE;
+    display: inline-block;
+}
+
+.container{
+    overflow-x: none;
+}
+
+.headText{
+    vertical-align: text-bottom;
+    font-size: 1.7em;
+    padding:55px;
+}
+
+.albumList{
+    display:flex;
+    overflow-x: auto;
+}
+
+.albumList div{
+    margin:15px;
+}
+
+.selectedAlbums{
+    width:50%;
+    height: 300px;
+    margin:auto;
+    margin-top: 30px;
+    background-color: #EEEEEE;
+    border: 2px solid black;
+}
