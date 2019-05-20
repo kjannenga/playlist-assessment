@@ -98,20 +98,27 @@ a{
     display: inline-block;
 }
 
-.container{
-    overflow-x: none;
-}
-
 .headText{
     vertical-align: text-bottom;
     font-size: 1.7em;
     padding:55px;
 }
 
+.scroll{
+    max-width: 100vw;
+    overflow-x: scroll;
+
+}
+
+
+
 .albumList{
     display:flex;
-    overflow-x: auto;
+    height: 120px;
+    width:2000px;
+    
 }
+
 
 .albumList div{
     margin:15px;
