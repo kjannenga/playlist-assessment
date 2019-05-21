@@ -2,20 +2,21 @@
     font-family: myFirstFont;
     src: url("/fonts/AvenirNextLTPro-Regular.otf");
 }
+
 * {
     margin: 0;
     padding: 0;
-    font-family:myFirstFont;
+    font-family: myFirstFont;
 }
 
 
 .header {
     background-color: #9b9b8c;
-    padding:20px;
+    padding: 20px;
     width: 100%;
     height: 25px;
     border-bottom: 2px solid black;
-    color:white;
+    color: white;
 }
 
 .header2 {
@@ -28,15 +29,16 @@
 }
 
 
-.footer{
-     background-color: #686859;
-     padding:20px;
-     width: 100%;
-     height: 25px;
-     color:white;
-     position: fixed;
-     bottom: 0;
+.footer {
+    background-color: #686859;
+    padding: 20px;
+    width: 100%;
+    height: 25px;
+    color: white;
+    position: fixed;
+    bottom: 0;
 }
+
 .bin {
     text-align: center;
     font-size: 1.7em;
@@ -45,24 +47,26 @@
     color: #6A2E7F;
 }
 
-.button{
-   background-color: #353526;
-   color: white;
-   padding:10px;
-   width:200px;
-   border-radius: 10px;
-   text-align: center;
-   margin:auto;
-}
-.buttons{
-    text-align:center;
-    margin:10px;
+.button {
+    background-color: #353526;
+    color: white;
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+
 }
 
+.buttons {
+    margin-left: 50px;
+    margin-top: 20px;
+}
 
 
-a{
-   text-decoration:none;
+
+a {
+    text-decoration: none;
 }
 
 .left {
@@ -72,20 +76,20 @@ a{
     background-color: inherit;
 }
 
-.tracks{
-      height: inherit;
-      width: 50vw;
-      background-image: url("../resources/fadedTrack.jpg");
-      background-size: cover;
-      /* opacity: 0.19; */
-      float: right;
-      display: flex;
-      justify-content: center;
+.tracks {
+    height: inherit;
+    width: 50vw;
+    background-image: url("../resources/fadedTrack.jpg");
+    background-size: cover;
+    /* opacity: 0.19; */
+    float: right;
+    display: flex;
+    justify-content: center;
 }
 
 
-.tracks div{
-    margin:10px;
+.tracks div {
+    margin: 10px;
 
 }
 
@@ -98,13 +102,13 @@ a{
     display: inline-block;
 }
 
-.headText{
+.headText {
     vertical-align: text-bottom;
     font-size: 1.7em;
-    padding:55px;
+    padding: 55px;
 }
 
-.scroll{
+.scroll {
     max-width: 100vw;
     overflow-x: scroll;
 
@@ -112,27 +116,29 @@ a{
 
 
 
-.albumList{
-    display:flex;
+.albumList {
+    display: flex;
     height: 120px;
-    width:2000px;
-    
+    min-width: 2000px;
+    padding: 30px;
+
 }
 
 
-.albumList div{
-    margin:15px;
+.albumList div {
+    margin: 15px;
+
 }
 
-.selectedAlbums{
-    width:50%;
+.selectedAlbums {
+    width: 50%;
     height: 300px;
-    margin:auto;
+    margin-left: 50px;
     margin-top: 30px;
     background-color: #EEEEEE;
     border: 2px solid black;
 }
 
 .selectedAlbums p {
-    padding:5px;
+    padding: 5px;
 }
